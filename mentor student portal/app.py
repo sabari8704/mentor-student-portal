@@ -21,8 +21,8 @@ def connect_to_database():
     return pymysql.connect(
         host="localhost",
         user="root",
-        password="Sabari@8704",
-        database="tamil_db",
+        password="",
+        database="",
     )
 
 @app.route('/')
