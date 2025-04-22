@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h2>Enter Your Personal Details</h2>
+    <form method="POST" action="/registerss">
+        <label>Username:</label><br>
+        <input type="text" name="username" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Contact Number:</label><br>
+        <input type="tel" name="number" required><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password" required><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+    <p>Already have an account? <a href="/loginss">Log in here</a>.</p>
+</body>
+</html>
