@@ -10,8 +10,8 @@ app.secret_key = "your_secret_key"  # Replace with a strong secret key
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'mentorstudentportal@gmail.com'  # Replace with your email
-app.config['MAIL_PASSWORD'] = 'xigx dqpi fwne slur'    # Replace with your app-specific password
+app.config['MAIL_USERNAME'] = ''  # Replace with your email
+app.config['MAIL_PASSWORD'] = ''    # Replace with your app-specific password
 
 mail = Mail(app) 
 
